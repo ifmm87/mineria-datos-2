@@ -1,0 +1,183 @@
+genero,s02a_02,Numeric,żEs hombre o mujer?,"{1, 1.Hombre}..."
+edad,s02a_03,Numeric,żCuántos años cumplidos tiene?,None
+dia_nac,s02a_04a,Numeric,żCuál es la fecha de su nacimiento?(día),None
+mes_nac,s02a_04b,Numeric,żCuál es la fecha de su nacimiento?(mes),None
+anio_nac,s02a_04c,Numeric,żCuál es la fecha de su nacimiento?(año),None
+relacion_jefe_hogar,s02a_05,Numeric,żQué relación o parentesco tiene  con el jefe o jefa del hogar?,"{1, 1.JEFE O JEFA DEL HOGAR}..."
+Idioma₁,s02a_07_1,Numeric,"żQué Idiomas habla, incluidos los de las naciones y pueblos indígena originarios 1ş","{2, 002. AYMARA}..."
+Idioma₂,s02a_07_2,Numeric,"żQué Idiomas habla, incluidos los de las naciones y pueblos indígena originarios 2ş","{1, 001. ARAONA}..."
+Idioma₃,s02a_07_3,Numeric,"żQué Idiomas habla, incluidos los de las naciones y pueblos indígena originarios 3ş","{2, 002. AYMARA}..."
+idioma_nativo,s02a_08,Numeric,żCuál es el idioma o lengua en el que aprendió a hablar en su niñez?,"{2, 002. AYMARA}..."
+estado_civil,s02a_10,Numeric,żCuál es su estado civil o conyugal actual?,"{1, 1. SOLTERO/A}..."
+donde_hace_5_anios,s03a_01a,Numeric,żDónde vivía hace 5 años (2014)?,"{1, 1. Aquí}..."
+pertenece_pueblo_originario,s03a_04,Numeric,Como boliviana o boliviano żA que nación o pueblo indígena originario o campesino o afroboliviano pertenece?,"{1, 1. Pertenece}..."
+pueblo_originario,s03a_04npioc,Numeric,żA cuál nación o pueblo indígena originario o campesino o afro boliviano pertenece?,"{1, 001. Afroboliviano}..."
+tiene_enfermedad,s04a_01a,Numeric, ż(...)Tiene alguna enfermedad crónica que haya sido diagnosticada como: 1ş,"{1, 1. Diabetes?}..."
+enfermado_12_meses,s04a_02a,Numeric,"En los últimos 12 meses, żse ha enfermado (...) de: 1ş","{1, 1. Malaria?}..."
+acudio_12_caja,s04a_03a,Numeric,"En los últimos 12 meses, por problemas de salud, żacudió o se atendió enA. Cajas de salud (CNS, COSSMIL u otras)?","{1, 1. Si}..."
+acudio_12_publico,s04a_03b,Numeric,"En los últimos 12 meses, por problemas de salud, żacudió o se atendió enB. Establecimientos de salud públicos?","{1, 1. Si}..."
+acudio_12_privados,s04a_03c,Numeric,"En los últimos 12 meses, por problemas de salud, żacudió o se atendió enC. Establecimientos de salud privados?","{1, 1. Si}..."
+acudio_12_mi_salud,s04a_03d,Numeric,"En los últimos 12 meses, por problemas de salud, żacudió o se atendió enD. Su domicilio, atendido por el Programa Mi Salud?","{1, 1. Si}..."
+acudio_12_domicilio,s04a_03e,Numeric,"En los últimos 12 meses, por problemas de salud, żacudió o se atendió enE. Su domicilio?","{1, 1. Si}..."
+acudio_12_tradicional,s04a_03f,Numeric,"En los últimos 12 meses, por problemas de salud, żacudió o se atendió enF. Médico tradicional?","{1, 1. Si}..."
+acudio_sin_receta,s04a_03g,Numeric,"En los últimos 12 meses, por problemas de salud, żacudió o se atendió enG. La farmacia sin receta médica (automedicación)?","{1, 1. Si}..."
+afiliado_seguro,s04a_04a,Numeric,żEstá (...) registrada/o o afiliada/o a alguno de los siguientes seguros de salud: 1ş,"{1, 1. Sistema Único de Salud (SUS)- Ley 1152 (antes Prestaciones del Servicio de Salud Integral - Ley 475, SUMI y SSPAM)?}..."
+dificultad_lentes,s04a_06a,Numeric,"żTiene () alguna dificultad permanente, que le limite o impidaA. ver, aún con los anteojos o lentes puestos?","{1, 1.Ninguna dificultad}..."
+dificultad_auditivo,s04a_06b,Numeric,"żTiene () alguna dificultad permanente, que le limite o impidaB. oir, aún cuando utiliza algún dispositivo auditivo?","{1, 1.Ninguna dificultad}..."
+dificultad_comunicacion,s04a_06c,Numeric,"żTiene () alguna dificultad permanente, que le limite o impidaC. hablar, comunicarse o conversar, aún cuando utilice algun lenguaje de señas u otro medio de comunicación?","{1, 1.Ninguna dificultad}..."
+dificultad_apoyo_caminar,s04a_06d,Numeric,"żTiene () alguna dificultad permanente, que le limite o impidaD. caminar o subir gradas, aún cuando  utilice un dispositivo de apoyo?","{1, 1.Ninguna dificultad}..."
+dificultad_concentracion,s04a_06e,Numeric,"żTiene () alguna dificultad permanente, que le limite o impidaE. recordar o concentrarse, aún estando con medicación o tratamiento?","{1, 1.Ninguna dificultad}..."
+dificultad_apoyo_apoyo,s04a_06f,Numeric,"żTiene () alguna dificultad permanente, que le limite o impidaF. autocuidado personal como vestirse, bañarse o comer, aún cuando utilice algún dispositivo de apoyo?","{1, 1.Ninguna dificultad}..."
+dificultad_entender_realidad,s04a_06g,Numeric,"żTiene () alguna dificultad permanente, que le limite o impidaG. razonar, aprender, adaptarse, comprender la realidad o tiene alteraciones o transtornos mentales o psíquicos, aun estando con tratamiento o medicación?","{1, 1.Ninguna dificultad}..."
+estuvo_embarazada,s04b_11a,Numeric,żEstá o estuvo alguna vez embarazada?,"{1, 1. Si, actualmente embarazada}..."
+numero_embarazos,s04b_11b,Numeric,żCuántas veces? (incluyendo el actual embarazo),None
+hijos,s04b_12,Numeric,żCuántas hijas e hijos nacidos vivos ha tenido? (aunque después hayan muerto),None
+hijos_vivos,s04b_13,Numeric,De ellos żCuántos están vivos actualmente?,None
+quien_atendio_parto,s04b_15,Numeric,żQuién atendió su último parto?,"{1, 1. MÉDICO}..."
+donde_atendio_parto,s04b_17,Numeric,żDónde fue atendido el parto de su último/a hijo/a nacido vivo?,"{1, 1. ESTABLECIMIENTO DE SALUD DE LAS CAJAS (CNS, PETROLERA, CNC, SEG. UNIVERSITARIO.)}..."
+parto_atendio_caja,s04b_18,Numeric,żLa atención de su último parto estuvo cubierta por alguno de los siguientes seguros:,"{1, 1. Sistema Único de Salud (SUS) - Ley 1152 (Antes Prestaciones del Servicio de Salud Integral-Ley 475, SUMI y SSPAM) ?}..."
+bono_azurduy,s04b_19,Numeric,"En su último embarazo, żse ha inscrito al Bono Juana Azurduy (BJA)?","{1, 1. Si}..."
+30m_actividad_fisica_trabajo,s04e_28a,Numeric,ż() en el trabajo o en sus tareas cotidianas requiere /necesita realizar una actividad física intensa o moderada en al menos 30 minutos consecutivos/continuos?,"{1, 1. Si}..."
+30m_camina_trabajo,s04e_29a,Numeric,"ż() para trasladarse al trabajo/realizar alguna actividad, camina o usa una bicicleta en al menos 30 minutos consecutivos/continuos?","{1, 1. Si}..."
+ejercicio_regular,s04e_30a,Numeric,ż() en su tiempo libre practica algún deporte o actividad física en al menos 30 minutos consecutivos/continuos?,"{1, 1. Si}..."
+deporte_practica,s04e_30c_cod,String,żQué actividad física o deporte practica? CÓDIGO,"{001, 001. Aeróbicos (aquagym)}..."
+ininstalacion_tipo_publico,s04e_31a,Numeric,żQué tipos de espacios o instalaciones utiliza () para hacer deporte o actividad física? A. Infraestructura pública sin costo,"{1, 1. Si}..."
+ininstalacion_tipo_publico_costo,s04e_31b,Numeric,żQué tipos de espacios o instalaciones utiliza () para hacer deporte o actividad física? B. Infraestructura pública con costo,"{1, 1. Si}..."
+instalacion_privada,s04e_31c,Numeric,żQué tipos de espacios o instalaciones utiliza () para hacer deporte o actividad física? C. Infraestructura privada,"{1, 1. Si}..."
+instalacion_abierta,s04e_31d,Numeric,"żQué tipos de espacios o instalaciones utiliza () para hacer deporte o actividad física? D. Espacios abiertos de uso libre (parque, calle, campo, montaña, rio, lago).","{1, 1. Si}..."
+instalacion_casa,s04e_31e,Numeric,żQué tipos de espacios o instalaciones utiliza () para hacer deporte o actividad física? E. En casa,"{1, 1. Si}..."
+fuma,s04e_32a,Numeric,żDurante los últimos 12 meses () ha fumado cigarrillos?,"{1, 1. Si}..."
+bebe,s04e_33a,Numeric, żDurante los últimos 12 meses () ha consumido bebidas alcohólicas?,"{1, 1. Si}..."
+frecuencia_bebe,s04e_33b,Numeric,żCon que frecuencia ha consumido bebidas alcohólicas ?,"{1, 1.Diariamente}..."
+siente_seguro,s04f_34,Numeric,żQué tan segura(o) se siente  caminando sola(o) cerca de su vivienda cuando es de noche ?,"{1, 1.Muy inseguro}..."
+victima_12m,s04f_35a,Numeric,"żEn los últimos 12 meses,  ha sido victima de: 1°","{1, 1. Robo, asalto o atraco de algun objeto (celular, billetera u otro) en la vía pública}..."
+lee_escribe,s05a_01,Numeric,żSabe leer y escribir?,"{1, 1. Si}..."
+operaciones_matematicas,s05a_01a,Numeric,"żEs () capaz de sumar o multiplicar números, ya sea en papel o mentalmente?","{1, 1. Si}..."
+nivel_educacion_alto,s05a_02a,Numeric,żCuál fue el NIVEL Y CURSO más alto de instrucción que aprobó?,"{11, 11.NINGUNO}..."
+grado_alto,s05a_02c,Numeric,Ingrese el Curso o Grado,None
+inscribio_curso_anio,s05a_04,Numeric,"Durante este año, żse inscribió o matriculó en algún curso o grado de educación escolar,alternativa,superior o postgrado?","{1, 1. Si}..."
+razon_inscribio,s05a_05,Numeric,żPor qué razón no se inscribió/matriculó? (Indague la razón más importante),"{1, 1.CULMINÓ SUS ESTUDIOS}..."
+grado_inscribio_anio,s05a_06a,Numeric,"żA qué NIVEL Y CURSO de educación escolar, alternativa,  superior o postgrado se inscribió/matriculó este año","{12, 12.CURSO DE ALFABETIZACIÓN}..."
+bono_juancito_pinto,s05a_08,Numeric,żRecibió el Bono Juancito Pinto el año pasado (2018)?,"{1, 1. Si}..."
+establecimiento_matriculo,s05a_09,Numeric,El establecimiento en el que se matriculó es:,"{1, 1.Fiscal / Público/Convenio}..."
+actualmente_asiste,s05b_10,Numeric,"Actualmente, żasiste al nivel y curso al que se matriculó esta gestión 2019?","{1, 1.ASISTE}..."
+motivo_no_asiste,s05b_11,Numeric,żPor qué razón no asiste actualmente? (Indague la razón más importante),"{1, 1.VACACIÓN (DESCANSO PEDAGÓGICO/RECESO)}..."
+burlaron,s05c_13a,Numeric,"żDurante esta gestion 2019,en la unidad educativa a la que asiste/asistio o alrededores () paso por alguna de estas situaciones? A. Se burlaron de el/ella","{1, 1. Nunca}..."
+insultaron,s05c_13b,Numeric,"żDurante esta gestion 2019,en la unidad educativa a la que asiste/asistio o alrededores () paso por alguna de estas situaciones? B. Le insultaron","{1, 1. Nunca}..."
+golpearon,s05c_13c,Numeric,"żDurante esta gestion 2019,en la unidad educativa a la que asiste/asistio o alrededores () paso por alguna de estas situaciones? C. Le golpearon o le dieron empujones","{1, 1. Nunca}..."
+amenazaron,s05c_13d,Numeric,"żDurante esta gestion 2019,en la unidad educativa a la que asiste/asistio o alrededores () paso por alguna de estas situaciones? D. Le amenazaron/chantajearon","{1, 1. Nunca}..."
+ignoraron,s05c_13e,Numeric,"żDurante esta gestion 2019,en la unidad educativa a la que asiste/asistio o alrededores () paso por alguna de estas situaciones? E. Le excluyeron/aislaron/ignoraron","{1, 1. Nunca}..."
+quitaron,s05c_13f,Numeric,"żDurante esta gestion 2019,en la unidad educativa a la que asiste/asistio o alrededores () paso por alguna de estas situaciones? F. Le quitaron o destruyeron algo que le pertenecia","{1, 1. Nunca}..."
+mintieron,s05c_13g,Numeric,"żDurante esta gestion 2019,en la unidad educativa a la que asiste/asistio o alrededores () paso por alguna de estas situaciones? G. Dijeron mentiras/rumores sobre el/ella","{1, 1. Nunca}..."
+tiene_telefono,s05d_17,Numeric,ż()Dispone de telefono celular para uso personal?,"{1, 1. Si}..."
+usado_telefono_3m,s05d_18,Numeric,żEn los ultimos 3 meses () ha utilizado telefono celular?,"{1, 1. Si}..."
+usado_internet_3m,s05d_19a,Numeric,"żEn los últimos 3 meses, () ha utilizado computadora de escritorio, laptop, tablet, en cualquier lugar?","{1, 1. Si}..."
+frecuencia_uso_3m,s05d_20b,Numeric,żCon que frecuencia?,"{1, 1. Al menos una vez al día}..."
+lugar_uso_3m,s05d_21a,Numeric,żDónde ha utilizado usted internet en los últimos 3 meses?  1°,"{1, 1. En el Hogar?}..."
+internet_bienes,s05d_22a,Numeric,żPara cuál de las siguientes actividades usó internet en los últimos 3 meses (desde cualquier lugar)? A.Para obtener información sobre bienes y servicios,"{1, 1. Si}..."
+internet_salud,s05d_22b,Numeric,żPara cuál de las siguientes actividades usó internet en los últimos 3 meses (desde cualquier lugar)? B.Para obtener información relacionado a servicios de salud,"{1, 1. Si}..."
+internet_organizaciones,s05d_22c,Numeric,żPara cuál de las siguientes actividades usó internet en los últimos 3 meses (desde cualquier lugar)? C.Para interactuar con organizaciones públicas y privadas en general,"{1, 1. Si}..."
+internet_correo,s05d_22d,Numeric,"żPara cuál de las siguientes actividades usó internet en los últimos 3 meses (desde cualquier lugar)? D.Para comunicación, enviar o recibir correo electrónico,chatear","{1, 1. Si}..."
+internet_compraventa,s05d_22e,Numeric,żPara cuál de las siguientes actividades usó internet en los últimos 3 meses (desde cualquier lugar)? E.Para compra  y venta  de bienes o servicios,"{1, 1. Si}..."
+internet_transacciones,s05d_22f,Numeric,"żPara cuál de las siguientes actividades usó internet en los últimos 3 meses (desde cualquier lugar)? F.Para operaciones bancarias  por Internet  (transferencias, depósitos, pago de cuenta, banca movil, etc)","{1, 1. Si}..."
+internet_capacitacion,s05d_22g,Numeric,żPara cuál de las siguientes actividades usó internet en los últimos 3 meses (desde cualquier lugar)? G.Para actividades  educativas  o de capacitación,"{1, 1. Si}..."
+internet_busc_empleo,s05d_22h,Numeric,"żPara cuál de las siguientes actividades usó internet en los últimos 3 meses (desde cualquier lugar)? H.Para buscar empleo, trabajo","{1, 1. Si}..."
+internet_entretenimiento,s05d_22i,Numeric,"żPara cuál de las siguientes actividades usó internet en los últimos 3 meses (desde cualquier lugar)? I.Actividades de entretenimiento (descargar video juegos, películas, música)","{1, 1. Si}..."
+aguinaldo_ultimo_anio,s06c_26b,Numeric,"Durante los últimos 12 meses, żrecibió usted pagos por:  Aguinaldo/doble aguinaldo? Monto en Bs",None
+trabajo_ultima_semana,s06a_01,Numeric,"Durante la semana pasada, żtrabajó al menos una hora?","{1, 1. Si}..."
+,s06a_02,Numeric,"Durante la semana pasada, dedicó al menos una hora a:","{1, 1.żTrabajar en cultivos agrícolas o en la crianza de animales para consumo del hogar o familia}..."
+,s06a_03,Numeric,"żLa semana pasada, tuvo algún empleo, negocio o empresa propia en la cual no trabajó por:","{1, 1.Vacaciones o permisos?}..."
+ul_semana_disponible,s06a_04,Numeric,żLa semana pasada quería usted trabajar y estaba disponible para hacerlo?,"{1, 1. Si}..."
+ul_semana_busco_negopropio,s06a_05,Numeric,Durante las últimas cuatro semanas żbuscó trabajo o hizo gestiones para establecer algún negocio propio?,"{1, 1. Si}..."
+trabajo_anteriormente,s06a_07,Numeric,żHa trabajado alguna vez anteriormente?,"{1, 1. Si}..."
+hace_cuanto_notrabajo,s06a_08a,Numeric,żHace cuánto tiempo que no trabaja o que no ha realizado alguna actividad para ganar dinero ? Tiempo,None
+periodo_hace_cuanto_no_trabja,s06a_08b,Numeric,żHace cuánto tiempo que no trabaja o que no ha realizado alguna actividad para ganar dinero ? Periodo,"{2, 2. Semana}..."
+es_usted,s06a_09,Numeric,Es usted:,"{1, 1.żEstudiante?}..."
+porque_nobusco_trabajo,s06a_10,Numeric,żPor qué no buscó trabajo?,"{1, 1.TIENE TRABAJO ASEGURADO QUE  COMENZARÁ EN MENOS DE  CUATRO SEMANAS}..."
+ocupacion_semana_pasada,s06b_11a,String,"Durante la semana pasada, żcuál fue su ocupación principal?",None
+ocupacion_semana_pasada_codigo,s06b_11a_cod,String,"Durante la semana pasada, żcuál fue su ocupación principal? CÒDIGO","{01000, 01000. Oficiales de las Fuerzas Armadas}..."
+actividad_empresa,s06b_12a,String,"żCuál es la actividad económica principal del establecimiento, negocio, institucion o lugar donde trabaja?",None
+actividad_empresa_codigo,s06b_12a_cod,String,"żCuál es la actividad económica principal del establecimiento, negocio, institucion o lugar donde trabaja? CÓDIGO","{01, 01. AGRICULTURA, GANADERÍA, CAZA Y SERVICIOS CONEXOS}..."
+ocupacion,s06b_13a,Numeric, żEsta ocupacion usted la realiza?,"{1, 1.Para su propio negocio, empresa o actividad por cuenta propia}..."
+ocupacion_rol,s06b_14,Numeric,En esta ocupación usted trabaja como:,"{1, 1.Obrero/ Empleado}..."
+tiempo_trabaja_empresa,s06b_15aa,Numeric,"żHace cuánto tiempo trabaja en esta empresa, institución, negocio o lugar? Tiempo",None
+periodo_tiempo_trabajo,s06b_15ab,Numeric,"żHace cuánto tiempo trabaja en esta empresa, institución, negocio o lugar?  Periodo","{2, 2. Semana}..."
+tipo_contrato,s06b_17,Numeric,"En este trabajo, usted","{1, 1.żFirmó contrato con  fecha de vencimiento o término?}..."
+publica_privada,s06b_18,Numeric,"La administración de la empresa, institución, negocio o lugar donde trabaja es","{1, 1.żAdministración Pública?}..."
+lugar_desempenio,s06b_20,Numeric,żDónde realiza sus labores?,"{1, 1.En su vivienda particular}..."
+numero_empleados,s06b_21a,Numeric,"żCuántas personas trabajan en la empresa, institución o lugar donde trabaja, incluido usted",None
+dias_semana_trabaja,s06b_22,Numeric,żCuántos días a la semana trabaja regularmente en su ocupación?,None
+horas_dia_trabaja,s06b_23aa,Numeric,żCuántas horas en promedio trabaja al día en su ocupación? Horas:,None
+salario_liquido,s06c_25a,Numeric,"żCuánto es su salario líquido, excluyendo los descuentos de ley (AFP, IVA)? Monto Bs",None
+salario_frequencia,s06c_25b,Numeric,"żCuánto es su salario líquido, excluyendo los descuentos de ley (AFP, IVA)? (Frecuencia)","{1, 1. Diario}..."
+prima_ultimo_anio,s06c_26a,Numeric,"Durante los últimos 12 meses, żrecibió usted pagos por:   Bono o prima de produción? Monto Bs",None
+tiene_vacaciones,s06c_29a,Numeric,żEn su actual ocupación Ud. recibe o recibirá los siguientes beneficios: Vacaciones,"{1, 1. Si}..."
+tiene_seguro,s06c_29b,Numeric,żEn su actual ocupación Ud. recibe o recibirá los siguientes beneficios: Seguro de salud,"{1, 1. Si}..."
+ingreso_ocupacion_principal,s06d_31a,Numeric,żCuánto es su ingreso total en su ocupación principal? Monto Bs,None
+frecuencia_ocupacion_principal,s06d_31b,Numeric,żCuánto es su ingreso total en su ocupación principal? Frecuencia,"{1, 1. Diario}..."
+desea_trabajar_mas_horas,s06g_47,Numeric,żDesea trabajar más horas de las que trabajó la semana pasada?,"{1, 1. Si}..."
+disponible_trabajar_mas_horas,s06g_48,Numeric,żEstá disponible para trabajar más horas?,"{1, 1. Si}..."
+,s06g_50,Numeric,żPor qué no trabajó más horas a la semana?,"{1, 1.NO ENCUENTRA OTRO TRABAJO}..."
+,s06g_50e,String,żPor qué no trabajó más horas a la semana? Otro (Especifique),None
+,s06g_51,Numeric,żCuál fue el motivo por el que dejó de trabajar en su última ocupación?,"{1, 1.RENUNCIA}..."
+trabajo_alguna_vez,s06g_52,Numeric,żHa trabajado alguna vez anteriormente?,"{1, 1. Si}..."
+afiliado,s06g_53,Numeric,"żEstá usted afiliado a un gremio, sindicato o asociación laboral?","{1, 1. Si}..."
+afiliado_afp,s06g_54,Numeric,żEsta usted afiliado a la AFP (Administradora de  Fondos de Pensiones)?,"{1, 1. Si}..."
+aporta_afp,s06g_55,Numeric,żActualmente esta usted aportando a la AFP?,"{1, 1. Si}..."
+ingreso_jubilacion,s07a_01a,Numeric,Recibe usted ingresos (rentas) mensuales por: żJubilación (vejez)? Monto Bs,None
+ingreso_benemerito,s07a_01b,Numeric,Recibe usted ingresos (rentas) mensuales por: żBenemérito? Monto Bs,None
+ingreso_invalidez,s07a_01c,Numeric,Recibe usted ingresos (rentas) mensuales por: żInvalidez? Monto en Bs,None
+ingreso_viudez,s07a_01d,Numeric,"Recibe usted ingresos (rentas) mensuales por: żViudez, orfandad? Monto en Bs",None
+ingreso_renta_dignidad,s07a_01e,Numeric,Recibe usted ingresos (rentas) mensuales por: Renta Dignidad?,"{1, 1. Si}..."
+ingreso_monto_renta_dignidad,s07a_01e0,Numeric,Recibe usted ingresos (rentas) mensuales por: Renta Dignidad? Monto en Bs,None
+ingreso_intereses,s07a_02a,Numeric,"Además de los ingresos mencionados, recibe usted ingresos (rentas) mensuales por: A.żIntereses ?(por depositos  bancarios, prestamos, etc.) Monto Bs.",None
+ingreso_alquileres,s07a_02b,Numeric,"Además de los ingresos mencionados, recibe usted ingresos (rentas) mensuales por: B.żAlquiler de propiedades inmuebles casas, etc? Monto Bs",None
+ingreso_otras_rentas,s07a_02c,Numeric,"Además de los ingresos mencionados, recibe usted ingresos (rentas) mensuales por C.żOtras rentas ? Monto Bs",None
+recibio_dinero_exterior,s07c_06,Numeric,"En los últimos 12 meses, żrecibió (), dinero o encomiendas de otras personas que residen en el exterior del país?","{1, 1. Si}..."
+frecuencia_dinero_exterior,s07c_07,Numeric,żCon que frecuencia recibió el dinero o encomiendas mencionadas? (Frecuencia),"{2, 2.Semanal}..."
+monto_dinero_exterior,s07c_08a,Numeric,"Si recibió dinero, żcuál es el monto y en qué moneda lo recibió? Monto Bs",None
+moneda_monto_exterior,s07c_08b,Numeric,"Si recibió dinero, żcuál es el monto y en qué moneda lo recibió? MONEDA","{1, 1.Bolivianos}..."
+razon_trabaja1,s08a_03a,Numeric,żCuáles son las principales razones por las que trabaja ()? 1°,"{1, 1.Para generar sus ingresos propios}..."
+razon_trabaja2,s08a_03b,Numeric,żCuáles son las principales razones por las que trabaja ()? 2°,"{1, 1.Para generar sus ingresos propios}..."
+,estrato,String,Estrato,None
+,factor,Numeric,Factor de expansión,None
+,tipohogar,Numeric,Tipo de hogar recodificado,"{1.00, Hogar Unipersonal}..."
+,cobersalud,Numeric,Cobertura de Seguro de Salud,"{1.00, Público}..."
+,hnv_ult_a,Numeric,Hijos nacidos vivos en el último año,"{.00, No tuvo'}..."
+,quienatenparto,Numeric,Personal de atención del parto,"{1.00, Atención Institucional}..."
+,dondeatenparto,Numeric,Lugar de atención del parto,"{1.00, Establecimientos de salud}..."
+,niv_ed,Numeric,Niv edu detallado,"{.00, Ninguno}..."
+,niv_ed_g,Numeric,Niv edu general,"{.00, Ninguno}..."
+,cmasi,Numeric,Condición de Matriculación y Asistencia,"{1.00, No matriculado}..."
+,educ_prev,Numeric,Años de estudio previos,None
+,aestudio,Numeric,Años de estudio,None
+,cob_op,Numeric,Grupo Ocupacional ocupación principal,"{.00, Fuerzas Armadas}..."
+,caeb_op,Numeric,Clasificación de Actividad Económica de Bolivia Ocupacion principal,"{.00, Agricultura,Ganadería,Caza,Pesca y Silvicultura}..."
+,pet,Numeric,Poblacion en edad de trabajar,"{.00, pent}..."
+,ocupado,Numeric,Poblacion Ocupada,"{.00, No}..."
+,cesante,Numeric,Poblacion Desocupada Cesante,"{.00, No}..."
+,aspirante,Numeric,Poblacion Desocupada Aspirante,"{.00, No}..."
+,desocupado,Numeric,Poblacion Desocupada,"{.00, No}..."
+,pea,Numeric,Poblacion Activa,"{.00, No}..."
+,temporal,Numeric,Poblacion Inactiva Temporal,"{.00, No}..."
+,permanente,Numeric,Poblacion Inactiva Temporal,"{.00, No}..."
+,pei,Numeric,Poblacion Inactiva,"{.00, No}..."
+,condact,Numeric,Condicion de Actividad Ocupacion Principal,"{.00, pent}..."
+,phrs,Numeric,Horas trabajadas a la semana Ocupación Principal,None
+,shrs,Numeric,Horas trabajadas a la semana Ocupación Secundaria,None
+,tothrs,Numeric,Horas trabajadas a la semana,None
+,yprilab,Numeric,Ingreso laboral Ocupación Principal (Bs/Mes),None
+,yseclab,Numeric,Ingreso laboral Ocupación Secundaria (Bs/Mes),None
+,ylab,Numeric,Ingreso laboral (Bs/Mes),None
+,ynolab,Numeric,Ingreso no laboral (Bs/Mes),None
+,yper,Numeric,Ingreso Personal (Bs/Mes),None
+,yhog,Numeric,Ingreso del Hogar (Bs/Mes),None
+,yhogpc,Numeric,Ingreso Percápita del Hogar (Bs/Mes),None
+,z,Numeric,Línea de pobreza (Bs/persona/mes),None
+,zext,Numeric,Línea de pobreza extrema o de indigencia (bs/persona/mes),None
+,p0,Numeric,Pobreza por Ingreso,"{.00, No pobre}..."
+,p1,Numeric,Brecha de pobreza por ingreso,None
+,p2,Numeric,Magnitud de pobreza por ingreso,None
+,pext0,Numeric,Pobreza extrema o indigencia por ingreso,"{.00, No pobre extremo}..."
+,pext1,Numeric,Brecha de pobreza extrema por ingreso,None
+,pext2,Numeric,Magnitud de pobreza extrema por ingreso,None
