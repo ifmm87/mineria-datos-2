@@ -3,7 +3,9 @@
 
 
 Ivan Fernando Mujica Mamani
+
 Universidad Católica Boliviana “San Pablo“, BOLIVIA
+
 ifmm87@gmail.com
 
 Profesor: Phd. Eduardo Morales
